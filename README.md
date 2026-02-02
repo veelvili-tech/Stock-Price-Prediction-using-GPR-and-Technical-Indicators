@@ -26,3 +26,25 @@ Interactive visualization and real-time prediction of defence stock prices using
  - Hybrid B: NNLS Blending
 
 <img width="904" height="1280" alt="STOCK PRICE PREDICTION" src="https://github.com/user-attachments/assets/a59b0e09-6660-456b-9a7b-b515c632bba2" /> 
+
+# Key Results
+
+Best Standalone Model: Tuned SVR
+
+RMSE: 4.44, MAE: 2.85, MAPE: 0.57%
+
+Best Overall Model: Hybrid A (RidgeCV Stacking)
+
+RMSE: 1.31, MAE: 1.01, MAPE: 0.23%
+
+Hybrid ML–DL ensembles significantly outperformed individual ML and DL models.
+
+# Why Hybrid Models Work
+
+- LSTM captures long-term sequential trends
+
+- ML models capture non-linear feature relationships
+
+- Stacking with Ridge regularization reduces overfitting
+
+- GPR features improve sensitivity to event-driven geopolitical shocks
