@@ -20,8 +20,9 @@ Interactive visualization and real-time prediction of defence stock prices using
 ### Deep Learning Model
 
 - LSTM (Long Short-Term Memory)
-- Hybrid Ensemble Models
-  - Hybrid A: RidgeCV Stacking (Best performing)
-  - Hybrid B: NNLS Blending
+
+### Hybrid Ensemble Models
+ - Hybrid A: RidgeCV Stacking (Best performing)
+ - Hybrid B: NNLS Blending
 
 <img width="904" height="1280" alt="STOCK PRICE PREDICTION" src="https://github.com/user-attachments/assets/a59b0e09-6660-456b-9a7b-b515c632bba2" /> 
